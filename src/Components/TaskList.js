@@ -6,8 +6,8 @@ import IconButton from '@material-ui/core/IconButton';
 export default function TaskList (props) {
 
   const [tasks, addTasks] = useState({
-    names: [''],
-    times: ['']
+    names: ['Delete me by clicking the circle ->'],
+    times: ['0.1']
   })
 
   //retrieving items from localstorage on component load (page open)
